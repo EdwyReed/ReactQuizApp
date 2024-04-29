@@ -1,0 +1,14 @@
+.QuizStepIcon {
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    background-color: gray;
+
+    display: grid;
+    place-items: center;
+}
+
+.QuizStepIcon > svg {
+    width: 60%;
+    height: 60%;
+}

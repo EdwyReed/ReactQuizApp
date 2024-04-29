@@ -1,0 +1,10 @@
+.QuestionCounter {
+    color: #5f9487;
+}
+
+.Delimiter {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    margin: .4rem 0;
+}

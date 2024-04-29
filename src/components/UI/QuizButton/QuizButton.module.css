@@ -1,0 +1,11 @@
+.QuizButton {
+    background-color: #41938a;
+    color: aliceblue;
+
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    max-width: 5rem;
+    width: 100%;
+
+    cursor: pointer;
+}
