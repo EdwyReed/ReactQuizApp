@@ -15,6 +15,7 @@ const QuizAnswer = ({text, isCorrect, isAnswer, disabled, ...props}) => {
       className={classes.QuizAnswer}
       style={{
         backgroundColor: `${answerBackground()}`,
+        color: `${answerBackground() ? 'white' : 'black'}`,
         pointerEvents: disabled ? 'none' : 'all',
         cursor: disabled ? 'default' : 'pointer'
       }}
